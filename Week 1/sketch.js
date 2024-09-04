@@ -55,7 +55,7 @@ function draw() {
   fill ("lime")
   circle(264, 170, 35)
 
-  //de dobbelsteen
+  //6. de dobbelsteen
   fill (255)
   strokeWeight (5)
   square(230, 330, 150, 20)
@@ -67,15 +67,28 @@ function draw() {
   circle (260, 450, 25)
   circle (340, 450, 25)
 
-  //Mario
+  //7. Mario hoofd
   fill ("red")
-  rect (500, 50, 80, 20)
-  rect (480, 70, 150, 20)
+  rect (500, 50, 100, 20)
+  rect (480, 70, 180, 20)
   fill (143,114,10)
-  rect (480, 90, 50, 20)
+  rect (480, 90, 60, 20)
   rect (500, 90, 20, 60)
   rect (460, 110, 20, 60)
   rect (460, 150, 40, 20)
+  rect (520, 130, 20, 20)
+  rect (580, 90, 20, 40)
+  rect (600, 130, 20, 20)
+  rect (580, 150, 80, 20)
   fill (212, 150, 104)
   rect (480, 110, 20, 40)
+  rect (540, 90, 40, 100)
+  rect (520, 110, 20, 20)
+  rect (500, 150, 40, 40)
+  rect (600, 90, 20, 40)
+  rect (580, 130, 20, 20)
+  rect (600, 110, 60, 20)
+  rect (620, 130, 60, 20)
+  rect (580, 170, 60, 20)
+
 }
