@@ -1,9 +1,9 @@
 function setup() {
-  createCanvas(700, 600);
+  createCanvas(800, 800);
 }
 
 function draw() {
-  background(130, 200, 120);
+  background(0, 100, 0);
   //1. alle nummers/naam
   fill (0)
   text ("1. Milan Veldhuizen", 5, 20)
@@ -13,8 +13,12 @@ function draw() {
   text ("5.", 220, 50)
   text ("6.", 220, 320)
   text ("7.", 420, 50)
+  text ("8.", 420, 450)
   fill ("red")
+  textSize (20) 
   text ("Mario", 440, 50)
+  fill (242, 218, 61)
+  text ("Spring Bonnie", 450, 450)
 
   //2. de vlag
   strokeWeight (0)
@@ -39,7 +43,7 @@ function draw() {
 
   //4. het huisje
   strokeWeight (1)
-  fill (130, 200, 120)
+  fill (0, 100, 0)
   triangle(30, 420, 170, 420, 100, 350)
   square (30, 420, 140)
 
@@ -124,4 +128,13 @@ function draw() {
   rect (440, 250, 40, 60)
   rect (620, 270, 20, 20)
   rect (640, 250, 40, 60)
+
+  //Spring bonnie hoofd
+  fill (245, 210, 34)
+  rect (450, 460, 20, 40)
+  rect (455, 490, 20, 40)
+  rect (465, 530, 70, 20)
+  rect (530, 460, 20, 40)
+  rect (525, 490, 20, 40)
+  rect ()
 }
