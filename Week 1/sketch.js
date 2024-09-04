@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 120, 0);
+  background(130, 200, 120);
   //1. alle nummers/naam
   fill (0)
   text ("1. Milan Veldhuizen", 5, 20)
@@ -39,7 +39,7 @@ function draw() {
 
   //4. het huisje
   strokeWeight (1)
-  fill (0, 120, 0)
+  fill (130, 200, 120)
   triangle(30, 420, 170, 420, 100, 350)
   square (30, 420, 140)
 
@@ -91,4 +91,37 @@ function draw() {
   rect (620, 130, 60, 20)
   rect (580, 170, 60, 20)
 
+  //mario lichaam
+  fill ("red")
+  rect (520, 190, 20, 60)
+  rect (520, 230, 80, 20)
+  rect (580, 210, 20, 60)
+  rect (540, 250, 40, 60)
+  rect (580, 290, 60, 40)
+  rect (480, 290, 60, 40)
+  rect (580, 270, 40, 20)
+  rect (600, 250, 20, 20)
+  rect (500, 250, 20, 20)
+  rect (500, 270, 40, 20)
+  fill (143,114,10)
+  rect (480, 190, 40, 60)
+  rect (540, 190, 40, 40)
+  rect (580, 190, 20, 20)
+  rect (600, 210, 60, 40)
+  rect (660, 230, 20, 20)
+  rect (620, 250, 20, 20)
+  rect (480, 250, 20, 20)
+  rect (440, 230, 40, 20)
+  rect (460, 210, 20, 20)
+  rect (600, 330, 60, 40)
+  rect (660, 350, 20, 20)
+  rect (460, 330, 60, 40)
+  rect (440, 350, 20, 20)
+  fill (212, 150, 104)
+  rect (520, 250, 20, 20)
+  rect (580, 250, 20, 20)
+  rect (480, 270, 20, 20)
+  rect (440, 250, 40, 60)
+  rect (620, 270, 20, 20)
+  rect (640, 250, 40, 60)
 }
