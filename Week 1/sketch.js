@@ -5,6 +5,7 @@ function setup() {
 function draw() {
   background(0, 100, 0);
   //1. alle nummers/naam
+  textFont("Comic Sans MS");
   fill (0)
   text ("1. Milan Veldhuizen", 5, 20)
   text ("2.", 5, 50)
@@ -172,7 +173,6 @@ function draw() {
   rect (415, 695, 35, 40)
   rect (415, 745, 35, 40)
   rect (415, 795, 35, 30)
-  rect (560, 665, 20, 20)
   fill (173, 70, 242)
   rect (483, 635, 12.5, 7.5)
   rect (505, 635, 12.5, 7.5)
